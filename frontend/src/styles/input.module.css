@@ -1,0 +1,30 @@
+input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 9px 0;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #0c70e9;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.errorText {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.isError {
+  border-color: red;
+}
